@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="pass-gen.css" />
+</head>
+<body>
+    <h1>Password Generator</h1>
+    <p>Check at least one parameter to generate a random password.</p>
+    <input type="checkbox" name="specialChar" value="@%+\/'!#$^?:,)}{][~-_."> Special Characters<br>
+    <input type="checkbox" name="numChar" value="0123456789">
+                 Numeric Characters<br>
+    <input type="checkbox" name="lowercaseChar" value="abcdefghijklmnopqrstuvwxyz"> Lowercase Characters<br>
+    <input type="checkbox" name="uppercaseChar" value="ABCDEFGHIJKLMNOPQRSTUVWXYZ"> Uppercase Characters<br>
+    <input type="submit" id="submit">
+    <div id="passwordShow"></div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <script src="password-generator.js"></script>
+
+</body>
+
+</html>
